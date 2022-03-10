@@ -7,11 +7,11 @@ import './Home.css';
 
 export default function Home() {
   // add useState calls here for title, subtitle, font, align, and text
-  const [title, setTitle] = useState('testTitle');
-  const [subTitle, setSubTitle] = useState('testSubTitle');
-  const [font, setFont] = useState('testFont');
+  const [title, setTitle] = useState('');
+  const [subTitle, setSubTitle] = useState('');
+  const [font, setFont] = useState('');
   const [align, setAlign] = useState('testAlign');
-  const [text, setText] = useState('testText');
+  const [text, setText] = useState('');
 
   return (
     <main>
